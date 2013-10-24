@@ -1,14 +1,31 @@
 @import './mixin'
 @import './footer'
 @import './main/nav'
+@import './main/top_slider'
 
-html,body,ul,li
+html,ul,li
 	margin 0
 	padding 0
 
+body,div,h1,h2,h3,h4,p,form,label,input,textarea,img,span
+	margin 0
+	padding 0
+	font-size 14px
+	color: #393939
+	line-height 20px
+	font_family_normal()
+
+h1,h2,h3,h4
+	font_family_yahei()
+
 ul,li
 	list-style none
+img
+	border none
 
-p
-	text-align: center
-	font-size: 16px
+.text_justify
+	text-align justify
+	text-justify distribute-all-lines
+	text-align-last justify
+	-moz-text-align-last justify
+	-webkit-text-align-last justify

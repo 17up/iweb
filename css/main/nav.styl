@@ -1,12 +1,51 @@
 @import '../mixin'
 
-nav
-	background #ddd
-	padding 20px
+width = 940px
+green = #60bc4c
 
-	#nav
-		position absolute
-		right 10px
-		top 10px
-		ul li
-			display inline-block
+nav
+	border-bottom 3px solid green
+	background url("/assets/images/top_bg.png") repeat-x
+	height 113px
+	a
+		text-decoration none
+	#top_container
+		width width
+		height 100%
+		margin-right auto
+		margin-left auto
+		position relative
+		#logo
+			vertical-middle(65px)
+			a
+				display block
+		#nav
+			position absolute
+			right 0px
+			top 0px
+			li
+				display inline-block
+				line-height 113px
+				z-index 4
+				a
+					display block
+					color white
+					outline none
+					letter-spacing 0
+					overflow hidden
+					font-size 14px
+					padding 0 20px
+					font_family_yahei()
+			li.back
+				bottom -1px
+				width 120px
+				height 9px
+				z-index 8
+				position absolute
+				background-image url("/assets/images/sanjiao.png")
+				background-repeat no-repeat
+				background-position center bottom
+			li.active
+				background #1d1d1d
+				a
+					color green

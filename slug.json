@@ -25,7 +25,7 @@
       "jsAfter": "require('index')"
     },
     "css": {
-      "paths"  : "./css",
+      "paths"  : ["./css","./css/slider/settings.css"],
       "target" : "./public/assets/application.css"
     },
     "test": {
