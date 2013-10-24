@@ -1,5 +1,5 @@
 jQuery.fn.lavaLamp = function(b) {
-    b = this.extend({fx: "linear",speed: 500,click: function() {
+    b = this.extend({fx: "easeOutBack",speed: 700,click: function() {
         }}, b || {});
     return this.each(function() {
         var c = $(this), f = function() {
@@ -10,7 +10,7 @@ jQuery.fn.lavaLamp = function(b) {
         $(this).hover(f, function() {
             d(g)
         });
-        k.click(function(l) {         
+        k.click(function(l) {
             if(!$(this).hasClass("outlink")){
                  e(this);
             }

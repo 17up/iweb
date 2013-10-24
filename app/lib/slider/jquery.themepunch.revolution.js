@@ -2007,7 +2007,27 @@
         }
     }
     e.fn.extend({revolution: function(r) {
-            e.fn.revolution.defaults = {delay: 9e3,startheight: 500,startwidth: 960,hideThumbs: 200,thumbWidth: 100,thumbHeight: 50,thumbAmount: 5,navigationType: "bullet",navigationArrows: "nexttobullets",navigationStyle: "round",touchenabled: "on",onHoverStop: "on",navOffsetHorizontal: 0,navOffsetVertical: 20,stopAtSlide: -1,stopAfterLoops: -1,hideCaptionAtLimit: 0,hideAllCaptionAtLilmit: 0,hideSliderAtLimit: 0,shadow: 1,fullWidth: "off"};
+            e.fn.revolution.defaults = {
+                delay: 9e3,startheight: 500,
+                startwidth: 960,
+                hideThumbs: 200,
+                thumbWidth: 100,
+                thumbHeight: 50,
+                thumbAmount: 5,
+                navigationType: "bullet",
+                navigationArrows: "nexttobullets",//"verticalcentered"
+                navigationStyle: "round",
+                touchenabled: "on",
+                onHoverStop: "on",
+                navOffsetHorizontal: 0,
+                navOffsetVertical: 20,
+                stopAtSlide: -1,
+                stopAfterLoops: -1,
+                hideCaptionAtLimit: 0,
+                hideAllCaptionAtLilmit: 0,
+                hideSliderAtLimit: 0,
+                shadow: 1,
+                fullWidth: "off"};
             r = e.extend({}, e.fn.revolution.defaults, r);
             return this.each(function() {
                 var i = r;

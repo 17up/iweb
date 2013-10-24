@@ -9,7 +9,7 @@ require('spine/lib/local')
 require('spine/lib/manager')
 require('spine/lib/route')
 
-require("lib/headline")
+require("lib/navigate/headline")
 
 require("lib/slider/jquery.fittext")
 require("lib/slider/jquery.themepunch.plugins.min")
