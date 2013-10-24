@@ -1,5 +1,5 @@
 footer .fs{text-align:center;background-color:#bebebe;clear:both;width:100%;margin-top:20px;font-size:12px;line-height:3}
-nav{border-bottom:3px solid #60bc4c;background:url("/assets/images/top_bg.png") repeat-x;height:113px;}
+nav{border-bottom:3px solid #60bc4c;background:url("./images/top_bg.png") repeat-x;height:113px;}
 nav a{text-decoration:none}
 nav #top_container{width:940px;height:100%;margin-right:auto;margin-left:auto;position:relative;}
 nav #top_container #logo{position:absolute;top:50%;height:65px;margin-top:-32.5px;}
@@ -7,12 +7,12 @@ nav #top_container #logo a{display:block}
 nav #top_container #nav{position:absolute;right:0;top:0;}
 nav #top_container #nav li{display:inline-block;line-height:113px;z-index:4;}
 nav #top_container #nav li a{display:block;color:#fff;outline:none;letter-spacing:0;overflow:hidden;font-size:14px;padding:0 20px;font-family:"微软雅黑","黑体",monospace,sans-serif}
-nav #top_container #nav li.back{bottom:-1px;width:120px;height:9px;z-index:8;position:absolute;background-image:url("/assets/images/sanjiao.png");background-repeat:no-repeat;background-position:center bottom}
-nav #top_container #nav li.active{background:#1d1d1d;}
+nav #top_container #nav li.back{bottom:-1px;width:120px;height:9px;z-index:8;position:absolute;background-image:url("./images/sanjiao.png");background-repeat:no-repeat;background-position:center bottom}
+nav #top_container #nav li.active{background:transparent;background:-webkit-gradient(linear,left top,left bottom,from(transparent),to(#2980b9));background:-moz-linear-gradient(top,transparent,#2980b9);background:linear-gradient(top,transparent,#2980b9);}
 nav #top_container #nav li.active a{color:#60bc4c}
 #banner_main{max-height:350px !important;margin:0 auto}
 #banner_slider{max-height:350px !important}
-#line_bg{background:url("/assets/images/index_14.png") repeat-x;height:7px;width:100%;clear:both}
+#line_bg{background:url("./images/index_14.png") repeat-x;height:7px;width:100%;clear:both}
 .banner_green{font-size:30px;color:#fff;line-height:30px;z-index:3;background-color:#60bc4c;padding:5px 20px 5px 20px}
 .banner_white{font-size:30px;line-height:30px;color:#393939;z-index:3;background-color:#fff;padding:5px 20px 5px 20px}
 html,ul,li{margin:0;padding:0}
@@ -549,7 +549,7 @@ website:   	http://www.themepunch.com
 /************************************
 		-	TP BANNER TIMER		-
 *************************************/
-.tp-bannertimer								{	width:100%; height:10px; background:url(/assets/images/timer.png);position:absolute; z-index:200;}
+.tp-bannertimer								{	width:100%; height:10px; background:url(./images/timer.png);position:absolute; z-index:200;}
 .tp-bannertimer.tp-bottom					{	bottom:0px !important;height:5px;}
 
 
@@ -641,7 +641,7 @@ website:   	http://www.themepunch.com
 .caption.slidelink a div,
 .tp-caption.slidelink a div {	width:10000px; height:10000px;  background:url(/assets/coloredbg.png) repeat;}
 
-.tp-loader 	{	background:url(/assets/images/loader.gif) no-repeat 10px 10px; background-color:#fff;  margin:-22px -22px; top:50%; left:50%; z-index:10000; position:absolute;width:44px;height:44px;
+.tp-loader 	{	background:url(./images/loader.gif) no-repeat 10px 10px; background-color:#fff;  margin:-22px -22px; top:50%; left:50%; z-index:10000; position:absolute;width:44px;height:44px;
 				border-radius: 3px;
 				-moz-border-radius: 3px;
 				-webkit-border-radius: 3px;
