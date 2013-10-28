@@ -10,8 +10,11 @@ require('spine/lib/manager')
 require('spine/lib/route')
 
 require("lib/navigate/headline")
+require("lib/scroll/jquery.sticky")
+require("lib/scroll/SmoothScroll")
 
 require("lib/slider/jquery.fittext")
 require("lib/slider/jquery.themepunch.plugins.min")
 require("lib/slider/jquery.themepunch.revolution")
 require("lib/slider/jquery.transit")
+require("lib/slider/jquery.flexslider-min")

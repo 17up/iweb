@@ -2,15 +2,16 @@
 
 width = 940px
 green = #60bc4c
+nav_height = 92px
 
 body
 	min-width width
 nav
 	border-bottom 3px solid green
 	background url("./images/top_bg.png") repeat-x
-	height 113px
-	a
-		text-decoration none
+	height nav_height
+	z-index 9999
+	width 100%
 	#top_container
 		width width
 		height 100%
@@ -27,7 +28,7 @@ nav
 			top 0px
 			li
 				display inline-block
-				line-height 113px
+				line-height nav_height
 				z-index 4
 				a
 					display block
@@ -35,7 +36,7 @@ nav
 					outline none
 					letter-spacing 0
 					overflow hidden
-					font-size 14px
+					font-size 18px
 					padding 0 20px
 					font_family_yahei()
 			li.back

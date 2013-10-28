@@ -18,35 +18,109 @@
     <link href="./favicon.png" rel="apple-touch-icon-precomposed">
   </head>
   <body>
-    <nav>
+    <nav class="sticky-nav">
       <div id="top_container">
-        <div id="logo"><a href="/"><img src="./assets/images/logo.png" width="200" height="60"></a></div>
+        <div id="logo"><a href="#home"><img src="./assets/images/logo.png" width="200" height="60"></a></div>
         <div id="nav">
           <ul id="headline" class="lavaLampWithImage3">
-            <li class="active"><a href="#">首页</a></li>
-            <li><a href="#about">关于我们</a></li>
-            <li><a href="#jobs">工作机会</a></li>
+            <li class="active"><a href="#home">首页</a></li>
+            <li><a href="#operate">业务模式</a></li>
+            <li><a href="#about">公司介绍</a></li>
+            <li><a href="#contact">联系我们</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <article>
-      <div id="slider_section">
+      <div id="home">
         <div id="banner_main" class="fullwidthbanner-container rev_slider_wrapper">
           <div id="banner_slider" class="banner rev_slider fullwidthabanner">
             <ul>
               <li data-transition="fade" data-slotamount="4" data-masterspeed="300">
                 <div class="slotholder"><img src="./assets/images/banner_bg_02.png" class="defaultimg"></div>
-                <div data-x="20" data-y="43" data-speed="500" data-start="100" data-easing="easeOutElastic" class="caption lfb"><img src="./assets/images/indexiphone_03.png"></div>
-                <div data-x="420" data-y="120" data-speed="300" data-start="600" data-easing="easeOutExpo" class="caption banner_green large_text sfr">银联智惠 微点app升级了</div>
-                <div data-x="420" data-y="160" data-speed="300" data-start="800" data-easing="easeOutExpo" class="caption sft large_text banner_white">新增安卓版本，更多商户！更多优惠！</div>
-                <div data-x="420" data-y="210" data-speed="300" data-start="1000" data-easing="easeOutExpo" class="caption banner_black sfr">为你细心挑选优质商户，打造属于你的微生活特权<br>只需一点，便可成为众人羡慕的VIP，从此每次刷卡都有了另外的惊喜</div>
+                <div data-x="40" data-y="53" data-speed="500" data-start="100" data-easing="easeOutElastic" class="caption lfb"><img src="./assets/images/top_slider_1.png"></div>
+                <div data-x="420" data-y="120" data-speed="300" data-start="600" data-easing="easeOutExpo" class="caption banner_green large_text sfr">基于深度数据挖掘的精准营销</div>
+                <div data-x="420" data-y="190" data-speed="300" data-start="1000" data-easing="easeOutExpo" class="caption banner_black sfr">多维度：性别、年龄、地理位置、消费金额、消费强度、消费偏好等<br>高价值：唤醒沉睡客户、寻找精准目标客户、用户行为预测、个性化营销方案</div>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div id="line_bg"></div>
+      <div id="operate">
+        <div class="title">专业为您提供一下服务</div>
+        <ul class="service">
+          <li class="item">
+            <div class="icon_bg"><img src="./assets/images/ico_09.png"></div>
+            <div class="item_title">用户数据挖掘</div>
+            <div class="content">我们基于全国4亿活跃持卡人，日均5200多万笔交易记录，通过对先进的模型算法，从人群属性、行业关联、地理位置等方面进行数据挖掘，从海量数据中筛选出了一批具有独特标签属性的目标用户，为不同行业的企业主寻找潜在目标客户群体，挖掘市场竞争情况。</div>
+          </li>
+          <li class="item">
+            <div class="icon_bg"><img src="./assets/images/ico_13.png"></div>
+            <div class="item_title">点对点精准营销</div>
+            <div class="content">我们通过各种通信工具，向用户进行点对点精准营销，并且对每一次商户的精准营销推广，都会生成图表化的效果评估报告，以最直观的方式向商户展示营销效果。在为用户传递企业价值的同时提升企业价值，实现共赢。</div>
+          </li>
+          <li class="item">
+            <div class="icon_bg"><img src="./assets/images/ico_19.png"></div>
+            <div class="item_title">经营分析报告</div>
+            <div class="content">我们基于银联独家的“大数据”优势，提供针对商户自有交易数据及行业数据，对客户消费特征及所在行业的竞争状况进行分析，为商户提供经营和营销的决策支持。</div>
+          </li>
+        </ul>
+      </div>
+      <div id="customer">
+        <div class="title_s">
+          <div class="icon"><img src="./assets/images/ico_24.png"></div>
+          <div class="con">我们来听听客户的感受</div>
+        </div>
+        <div class="flexslider">
+          <ul class="slides">
+            <li class="slide">银联智惠的精准营销为各门店新增了不少优质客流，将活动内容精准的传递给潜在客户正是银联智惠最大的价值之一。一茶一坐市场部负责人</li>
+            <li class="slide">商圈刷卡触发产品改变了传统营销在公司心中的印象，实时、精准，每一个节假日银联智惠总是我们重要的合作客户。天河城市场推广部经理</li>
+            <li class="slide">精准高效，收费合理。 百联又一城市场部经理</li>
+            <li class="slide">和银联智惠合作多次了，技术实力毋庸置疑，每次推广都向新老客户精准的送去问候，带来很多回头客。东方商厦市场部经理</li>
+            <li class="slide">大数据营销在一定程度上提升了酒吧的入座率，推广后的数据统计更是真实有效地呈现出整个营销的效果概况。 MUSE负责人</li>
+          </ul>
+        </div>
+      </div>
+      <div id="about">
+        <div class="title">我们是谁</div>
+        <div class="content">
+          <p>银联智惠是中国银联旗下子公司，成立于2012年12月，核心团队曾在ORACLE、VISA、阿里巴巴、腾讯等国内外知名企业担任重要职务，拥有成熟的公司治理经验，市场/销售经验，大数据挖掘核心技术，并拥有多项软件著作权。</p>
+          <p>公司致力于大数据的整合、挖掘、应用，为零售等行业提供深度数据服务，提升客户企业运作效率，发展创新业务模式。</p>
+          <p>公司依托银联强大的跨行转接交易数据资源，采集并整合银行、运营商、互联网等来源的数据，建设统一的大数据基础平台；在此基础上，采用数据挖掘核心技术，精心打造银联智惠大数据模型，勾勒出全国8亿持卡人的画像及500万商户的特征，为广大商户提供一站式的精准营销、会员管理及经营分析等解决方案。</p>
+        </div>
+      </div>
+      <div id="choose_slider">
+        <div class="title_s">他们选择了我们</div>
+        <div class="auto_slide"></div>
+      </div>
+      <div id="jobs">
+        <div class="title_s">我们还招聘以下人才</div>
+        <div class="summary">
+          <p>如果你是技术怪才；如果你是产品达人；如果你对新兴行业有着近乎偏执的热情，我们会以自由畅想的环境、强身健魄的高手间切磋、快速成长与未来的无限前景作为交换。</p>
+          <p>作为一块顶级人才吸铁石，我们诚请你的加入，枉有屠龙之技的你还坐得住么？一起来吧</p>
+        </div>
+        <ul class="content">
+          <li>
+            <p><a href="http://search.51job.com/job/53813766,c.html" target="blank" class="job_blue">> 用户体验设计师</a></p>
+            <p><a href="http://search.51job.com/job/55440636,c.html" target="blank" class="job_blue">> APP产品助理（专员）</a></p>
+            <p><a href="http://search.51job.com/job/55809559,c.html" target="blank" class="job_blue">> 总裁助理</a></p>
+          </li>
+          <li>
+            <p><a href="http://search.51job.com/job/55826221,c.html" target="blank" class="job_blue">> 数据平台工程师</a></p>
+            <p><a href="http://search.51job.com/job/55637460,c.html" target="blank" class="job_blue">> 渠道管理专员</a></p>
+            <p><a href="http://search.51job.com/job/54349318,c.html" target="blank" class="job_blue">> 运营经理（APP会员运营Leader）</a></p>
+          </li>
+          <li>
+            <p><a href="http://search.51job.com/job/55666570,c.html" target="blank" class="job_blue">> 高级销售代表</a></p>
+            <p><a href="http://search.51job.com/job/55231580,c.html" target="blank" class="job_blue">> Android开发工程师</a></p>
+            <p><a href="http://search.51job.com/list/co,c,2906327,000000,50,1.html" class="job_blue">> 更多</a></p>
+          </li>
+        </ul>
+      </div>
+      <div id="contact">
+        <div class="title">联系我们</div>
+      </div>
     </article>
     <footer>
       <div class="fs">沪ICP备13002437号 Copyright &copy; 2013 银联智惠</div>
