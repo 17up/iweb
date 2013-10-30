@@ -11,11 +11,11 @@ $ ->
 		stopLoop:"off"
 		shuffle:"off"
 		hideCaptionAtLimit:601
-	$("#headline li").on "click", (event) ->
+	$("#headline li a").on "click", (event) ->
 		headerH = $('nav').height()
 		$("#headline li").removeClass "active"
-		$(this).addClass "active"
-		href = $(@).find("a").attr("href")
+		$(this).parent().addClass "active"
+		href = $(@).attr("href")
 		$("html, body").animate
 			scrollTop: $(href).offset().top - (headerH) + "px"
 			duration: 1200
