@@ -26,6 +26,8 @@ nav
 			position absolute
 			right 0px
 			top 0px
+			ul
+				position relative
 			li
 				display inline-block
 				line-height nav_height
@@ -40,15 +42,17 @@ nav
 					padding 0 20px
 					font_family_yahei()
 			li.back
-				bottom -1px
+				display block
+				bottom 0px
+				line-height 9px
 				width 120px
 				height 9px
 				z-index 8
 				position absolute
 				background-image url("./images/sanjiao.png")
 				background-repeat no-repeat
-				background-position center bottom
-			li.active
+				background-position center
+			li.current
 				vbg-gradient(transparent,#2980b9)
 				a
 					color green

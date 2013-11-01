@@ -13,8 +13,8 @@ $ ->
 		hideCaptionAtLimit:601
 	$("#headline li a").on "click", (event) ->
 		headerH = $('nav').height()
-		$("#headline li").removeClass "active"
-		$(this).parent().addClass "active"
+		$("#headline li").removeClass "current"
+		$(this).parent().addClass "current"
 		href = $(@).attr("href")
 		$("html, body").animate
 			scrollTop: $(href).offset().top - (headerH) + "px"
