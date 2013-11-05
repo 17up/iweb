@@ -3,7 +3,7 @@ jQuery.fn.lavaLamp = function(b) {
         }}, b || {});
     return this.each(function() {
         var c = $(this), f = function() {
-        }, h = $('<li class="back"><div class="left"></div></li>').appendTo(c), k = $("li a", this), g = $("li.current", this)[0] || $(k[0]).addClass("current")[0];
+        }, h = $('<li class="back"><div class="left"></div></li>').appendTo(c), k = $("li a", this), g = $("li.active", this)[0] || $(k[0]).addClass("active")[0];
         k.not(".back").hover(function() {
             d(this)
         }, f);

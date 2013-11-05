@@ -10,6 +10,7 @@ require('spine/lib/manager')
 require('spine/lib/route')
 
 require("lib/navigate/headline")
+require("lib/navigate/scrollspy")
 require("lib/scroll/jquery.sticky")
 require("lib/scroll/SmoothScroll")
 
