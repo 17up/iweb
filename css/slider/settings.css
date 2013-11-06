@@ -429,7 +429,7 @@ website:   	http://www.themepunch.com
 	z-index:100;
 	cursor:pointer;
 	position:relative;
-	background:url(/assets/slider-mini-prev.png) no-Repeat 49% 50% #555555;
+	background:url(./images/slider-mini-prev.png) no-Repeat 49% 50% #555555;
 	width:26px;
 	height:26px;
 	margin-right:10px;
@@ -443,7 +443,7 @@ website:   	http://www.themepunch.com
 	z-index:100;
 	cursor:pointer;
 	position:relative;
-	background:url(/assets/slider-mini-next.png) no-Repeat 51% 50% #555555;
+	background:url(./images/slider-mini-next.png) no-Repeat 51% 50% #555555;
 	width:26px;
 	height:26px;
 	margin-left:10px;
@@ -458,7 +458,7 @@ website:   	http://www.themepunch.com
 	z-index:100;
 	cursor:pointer;
 	position:relative;
-	background: #555555 url(/assets/slider-prev.png) no-Repeat top left;
+	background: #555555 url(./images/slider-prev.png) no-Repeat top left;
 	width:40px;
 	height:50px;
 	margin-left:0px;
@@ -473,7 +473,7 @@ website:   	http://www.themepunch.com
 	z-index:100;
 	cursor:pointer;
 	position:relative;
-	background: #555555 url(/assets/slider-next.png) no-Repeat top left;
+	background: #555555 url(./images/slider-next.png) no-Repeat top left;
 	background-repeat: no-repeat;
 	background-position: 53% 50%;
 	width:40px;
@@ -555,14 +555,14 @@ website:   	http://www.themepunch.com
 	@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
 
 		.tp-leftarrow {
-			background-image:url(/assets/slider-mini-prev@2x.png);
+			background-image:url(./images/slider-mini-prev@2x.png);
 			-webkit-background-size:11px 11px;
 			   -moz-background-size:11px 11px;
 			     -o-background-size:11px 11px;
 			        background-size:11px 11px;
 		}
 		.tp-rightarrow {
-			background-image:url(/assets/slider-mini-next@2x.png);
+			background-image:url(./images/slider-mini-next@2x.png);
 			-webkit-background-size:11px 11px;
 			   -moz-background-size:11px 11px;
 			     -o-background-size:11px 11px;
@@ -570,14 +570,14 @@ website:   	http://www.themepunch.com
 		}
 
 		.tp-leftarrow.large	{
-			background-image:url(/assets/slider-prev@2x.png);
+			background-image:url(./images/slider-prev@2x.png);
 			-webkit-background-size:10px 15px;
 			   -moz-background-size:10px 15px;
 			     -o-background-size:10px 15px;
 			        background-size:10px 15px;
 		}
 		.tp-rightarrow.large {
-			background-image:url(/assets/slider-next@2x.png);
+			background-image:url(./images/slider-next@2x.png);
 			-webkit-background-size:10px 15px;
 			   -moz-background-size:10px 15px;
 			     -o-background-size:10px 15px;
