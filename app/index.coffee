@@ -1,11 +1,9 @@
 require('lib/setup')
 
 $ ->
-	$('[data-spy="scroll"]').each ->
-		$spy = $(this).scrollspy('refresh')
 	$('#banner_slider').revolution
-		startwidth:940
-		startheight:360
+		startwidth: 940
+		startheight: 650
 		navigationType:"none"
 		shadow:0
 		fullWidth:"on"
@@ -13,7 +11,7 @@ $ ->
 		shuffle:"off"
 		hideCaptionAtLimit:601
 	$("#headline li a").on "click", (event) ->
-		headerH = $('nav').height()
+		headerH = $("nav.navigation").height()
 		href = $(@).attr("href")
 		$("html, body").animate
 			scrollTop: $(href).offset().top - (headerH) + "px"
