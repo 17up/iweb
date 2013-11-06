@@ -7,14 +7,16 @@ nav_height = 92px
 
 body
 	min-width width
-nav
+#nav.sticky
+	box-shadow 0 1px 3px rgba(0, 0, 0, .12)
+#nav
 	height nav_height
 	z-index 9999
 	width 100%
 	background #fff
 	.htitle
 		display none
-	#top_container
+	.container
 		width width
 		height 100%
 		margin-right auto
@@ -24,7 +26,7 @@ nav
 			vertical-middle(80px)
 			a
 				display block
-	#nav
+	#menu
 		position absolute
 		right 0px
 		top 0px
@@ -43,9 +45,10 @@ nav
 				letter-spacing 0
 				overflow hidden
 				font-size 18px
-				padding 0 20px
+				margin 0 15px
 				font_family_yahei()
-
+				height (nav_height - 3)
 		li.active
 			a
 				color blue
+				border-bottom 3px solid blue

@@ -19,7 +19,7 @@ $ ->
 			easing: "easeInOutExpo"
 		return false
 		event.preventDefault()
-	$("nav.sticky-nav").sticky
+	$("#nav.sticky-nav").sticky
 		topSpacing: 0
 		className: 'sticky'
 		wrapperClassName: 'main-menu-wrapper'
