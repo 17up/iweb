@@ -1,8 +1,6 @@
 require('lib/setup')
 
 $ ->
-	$('[data-spy="scroll"]').each ->
-		$spy = $(this).scrollspy('refresh')
 	$('#banner_slider').revolution
 		startwidth:940
 		startheight:360
