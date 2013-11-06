@@ -1,15 +1,18 @@
 nav.sticky-nav.navigation
 	#top_container
-		#logo
-			a(href = "#home")
-				img(src="./assets/images/logo.png" width="200" height="60")
+		h1#logo
+			a(href = "#home" title=title)
+				span.htitle= title
+				img(src="./assets/images/logo.jpg" width="243" height="80")
 		#nav
 			ul#headline.nav
 				li.active
-					a(href = "#home") 首页
+					a(href = "#home") Home
 				li
-					a(href = "#operate") 业务模式
+					a(href = "#products") Products
 				li
-					a(href = "#about") 公司介绍
+					a(href = "#features") Features
 				li
-					a(href = "#contact") 联系我们
+					a(href = "#specials") Specials
+				li
+					a(href = "#contact") Contact

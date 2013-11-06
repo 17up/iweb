@@ -1,17 +1,19 @@
 @import '../mixin'
 
 width = 940px
-green = #60bc4c
+blue = #428cce
+silver = #bdc3c7
 nav_height = 92px
 
 body
 	min-width width
 nav
-	border-bottom 3px solid green
-	background url("./images/top_bg.png") repeat-x
 	height nav_height
 	z-index 9999
 	width 100%
+	background #fff
+	.htitle
+		display none
 	#top_container
 		width width
 		height 100%
@@ -19,32 +21,31 @@ nav
 		margin-left auto
 		position relative
 		#logo
-			vertical-middle(65px)
+			vertical-middle(80px)
 			a
 				display block
-		#nav
-			position absolute
-			right 0px
-			top 0px
-			ul
-				position relative
-				clearfix()
-			li
-				display inline-block
-				line-height nav_height
-				z-index 14
-				float left
-				a
-					display block
-					color white
-					outline none
-					letter-spacing 0
-					overflow hidden
-					font-size 18px
-					padding 0 20px
-					font_family_yahei()
+	#nav
+		position absolute
+		right 0px
+		top 0px
+		ul
+			position relative
+			clearfix()
+		li
+			display inline-block
+			line-height nav_height
+			z-index 14
+			float left
+			a
+				display block
+				color silver
+				outline none
+				letter-spacing 0
+				overflow hidden
+				font-size 18px
+				padding 0 20px
+				font_family_yahei()
 
-			li.active
-				background url("./images/sanjiao.png") bottom no-repeat
-				a
-					color green
+		li.active
+			a
+				color blue
