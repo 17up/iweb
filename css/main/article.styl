@@ -1,8 +1,59 @@
 @import '../mixin'
 
+max_width = 940px
+blue = #428cce
+
 #products
-	margin-top 20px
 	height 700px
+	padding-top 100px
+	.title
+		text-align center
+		h1
+			font-size 40px
+			background blue
+			color white
+			margin 20px 0 40px 0
+			font-weight normal
+			display inline-block
+			padding 10px
+			border 4px solid white
+			box-shadow 0 0 0 3px blue
+	.container
+		width (max_width - 40)
+		margin 0 auto
+		.item
+			float left
+			width 300px
+			height 262px
+			.image
+				display block
+				overflow hidden
+				position relative
+				color white
+				.overlay.active
+					opacity 1
+				.overlay
+					position absolute
+					width 100%
+					height 100%
+					top 0
+					left 0
+					display block
+					z-index 4
+					opacity_hidden()
+					background blue
+					background rgba(66,140,209,0.8)
+					transition all,0.3s,ease-in-out
+					.thumb-info
+						h3
+							color white
+							width 93%
+							text-align center
+							position absolute
+							padding 0 2%
+							top 38%
+							font-size 28px
+							line-height 1
 #features
 	height 700px
 #specials

@@ -4,6 +4,14 @@
 @import './main/top_slider'
 @import './main/article'
 
+@font-face
+	font-family DancingScript
+	font-style normal
+	src url('./font/DancingScript.woff')
+
+.dancing
+	font-family DancingScript
+
 html,ul,li
 	margin 0
 	padding 0
@@ -19,11 +27,12 @@ a
 	outline none
 h1,h2,h3,h4
 	font_family_yahei()
-
+	margin-bottom 10px
 ul,li
 	list-style none
 img
 	border none
+	vertical-align middle
 
 .text_justify
 	text-align justify

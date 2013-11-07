@@ -1,15 +1,15 @@
 article
 	#products
-		.item
-			.title Swim Spas
-			.pic
-				img(src="./assets/images/product/girl.jpg" title="Swim Spas")
-		.item
-		.item
-		.item
-		.item
-		.item
-		.item
+		.title
+			h1 Our Products
+		.container.clearfix
+			each item in body.products
+				.item
+					a.image(href = "/product/#{item.id}")
+						img(src=item.image title=item.title)
+						.overlay
+							.thumb-info
+								h3.dancing= item.title
 	#features
 	#specials
 	#contact

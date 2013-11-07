@@ -32,5 +32,7 @@ $ ->
 		directionNav: true
 		controlNav: false
 
-
-
+	$("#products .image").on "mouseover", ->
+		$(@).find(".overlay").addClass "active"
+	.on "mouseleave", ->
+		$(@).find(".overlay").removeClass "active"
