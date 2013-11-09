@@ -11,5 +11,87 @@ article
 							.thumb-info
 								h3.dancing= item.title
 	#features
+		.container
+			h2.title WHY ZEN SPAS?
+			.clearfix
+				for item,i in body.features
+					if i === 2
+						- var classes = ["last","item","feature"]
+					else
+						- var classes = ["item","feature"]
+					div(class=classes)
+						.image
+							img(src="./assets/images/#{item.image}")
+						h3= item.title
+						.desc= item.desc
+			.more
+				a(href="/features")
+					| ~ More Features ~
+	#quotes
+		.overlay
+		.container
+			.title
+				img(src="./assets/images/flaticon_23.png")
+				div Customer Feedback
+			.flexslider
+				ul.slides
+					for item in body.comments
+						li.slide
+							= item.content
+							.author
+								= "@" + item.author
+
 	#specials
+		.container
+			h2.title
+				span.fa.fa-star
+				p.dancing Specials
+			.clearfix
+				for item,i in body.specials
+					if i == 1
+						- var classes = ["highlight"]
+					else
+						- var classes = []
+					ul.threecolumn(class = classes)
+						li.image
+							img(src=item.image title=item.title)
+						li.title= item.title
+						li.price.was
+							span.t Was:
+							span.m= "$" + item.price.was
+						li.price.now
+							span.t Now:
+							span.m= "$" + item.price.now
+						li.price.save
+							span.t Save:
+							span.m= "$" + item.price.save
+
 	#contact
+		#google-map
+		#contact-section
+			.container
+				.title
+					span.fa.fa-envelope
+					p.dancing Contact
+				#contact-form
+					form(action="/")
+						#contact-input
+							input(type="text" name="name" required="required" placeholder="name")
+							input(type="text" name="email" required="required" placeholder="email")
+							input(type="text" name="subject" required="required" placeholder="subject")
+						#contact-textarea
+							textarea#contactMessage.required(name="contactMessage" placeholder="Message")
+						#contact-submit
+							input#submitform(type="submit" value="Send")
+				.socials
+					.item
+						a(href="http://twitter.com")
+							span.fa.fa-twitter
+					.item
+						a(href="http://facebook.com")
+							span.fa.fa-facebook-square
+					.item
+						a(href="http://weibo.com")
+							span.fa.fa-weibo
+
+

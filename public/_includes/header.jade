@@ -11,6 +11,7 @@ mixin meta_tag("keywords",keywords)
 	script(src= "./assets/html5.js")
 title= title
 mixin stylesheet_link_tag("./assets/application.css")
+mixin javascript_include_tag("https://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places&amp;ver=2.1")
 mixin javascript_include_tag("./assets/application.js")
 link(href="./favicon.ico" rel="shortcut icon")
 link(href="./favicon.png" rel="apple-touch-icon-precomposed")

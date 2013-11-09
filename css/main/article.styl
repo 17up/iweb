@@ -2,10 +2,14 @@
 
 max_width = 940px
 blue = #428cce
+blue2 = #4eb1e6
+red = #fd6c2a
 
+#home
+	margin-bottom 20px
 #products
-	height 700px
 	padding-top 100px
+	margin-bottom 20px
 	.title
 		text-align center
 		h1
@@ -55,8 +59,210 @@ blue = #428cce
 							font-size 28px
 							line-height 1
 #features
-	height 700px
+	margin-top 80px
+	background #f6f6f6
+	.container
+		width max_width
+		margin 0 auto
+		.more
+			text-align center
+			padding 30px
+			a
+				color blue
+				font-size 18px
+				&:hover
+					color blue2
+		.title
+			padding 30px 0
+			text-align center
+			font-size 32px
+			color blue
+		.last
+			margin-right 0 !important
+		.item
+			text-align center
+			float left
+			margin-right 4%
+			margin-bottom 20px
+			width 30.66%
+			.image
+				padding 25px 45px
+				border-radius 3px
+				background blue
+				width 120px
+				margin 0 auto
+				position relative
+			h3
+				padding-top 20px
+				margin-bottom 4px
+				font-size 24px
+				font-weight normal
+			.desc
+				padding 20px 10px
+				color #555
+#quotes
+	background url("./images/bea.jpg") center no-repeat
+	width 100%
+	height 420px
+	color white
+	position relative
+	.title
+		text-align center
+		font-size 32px
+		padding 30px 0
+		color white
+		img
+			width 108px
+			height 108px
+	.overlay
+		background url("./images/pattern.png")
+		width 100%
+		position absolute
+		overflow hidden
+		height 100%
+	.container
+		position relative
+		z-index 99
+	.flexslider
+		padding 0
+		width 900px
+		margin 0 auto
+		ul.slides li
+			font-size 20px
+			line-height 1.4
+			margin 5px auto 50px
+			padding 15px 0
+			border-top 1px solid #eee
+			border-top 1px solid rgba(255, 255, 255, 0.30)
+			border-bottom 1px solid #eee
+			border-bottom 1px solid rgba(255, 255, 255, 0.30)
+
+			.author
+				text-align right
+				color #e0dff7
+				margin-left 100px
 #specials
-	height 700px
+	margin-top 80px
+	.container
+		width max_width
+		margin 0 auto
+		.title
+			padding 30px 0
+			text-align center
+			font-size 32px
+			color blue
+
+		.threecolumn
+			width 33.1%
+			float left
+			position relative
+			box-shadow 0px 0px 15px 1px rgba(0,0,0,0.4)
+			li
+				padding 20px
+				text-align center
+				line-height 40px
+			li.title
+				background blue2
+				color white
+				font-weight bold
+				font-size 22px
+			li.image
+				img
+					width 278px
+			li.price
+				color white
+				border-bottom 1px solid #2852ac
+				border-top 1px solid blue2
+				background blue
+				clearfix()
+				span.t
+					float left
+				span.m
+					float right
+					font-size 30px
+					font-weight bold
+			li.now
+				span.t
+					font-size 22px
+					font-weight bold
+				span.m
+					font-size 34px
+		.threecolumn.highlight
+			z-index 5
+
 #contact
-	height 700px
+	margin-top 80px
+#google-map
+	height 450px
+	width 100%
+	background white
+	box-shadow 0px 3px 0px rgba(0, 0, 0, 0.06)
+#contact-section
+	margin-top 20px
+	background blue url("./images/foot.jpg") center no-repeat
+	height 440px
+	.container
+		width max_width
+		margin 0 auto
+		.title
+			padding 30px 0
+			text-align center
+			font-size 32px
+			color blue
+		input:focus,textarea:focus
+			outline none
+		#contact-form
+			clearfix()
+		#contact-input
+			overflow: hidden
+			margin-bottom: 13px
+			width: 50%
+			float: left
+			input
+				border: 1px solid #e8e8e8
+				width: 90%
+				font-size: 13px
+				color: #747474
+				padding: 20px 2%
+				float: left
+				margin: 0 1% 2%
+				border-radius: 2px
+				background rgba(255,255,255,0.6)
+		#contact-textarea
+			width 50%
+			float right
+			textarea
+				border: 1px solid #e8e8e8
+				width: 95%
+				height: 92px
+				font-size: 13px
+				color: #747474
+				padding: 20px 11px 10px
+				border-radius: 2px
+				margin-bottom: 10px
+				background rgba(255,255,255,0.6)
+		#submitform
+			border 0 none
+			padding 15px 24px 15px 24px
+			color #ffffff
+			width 50%
+			cursor pointer
+			font-size 22px
+			font-weight bold
+			float right
+			background blue
+		.socials
+			padding 20px
+			text-align center
+			.item
+				display inline-block
+				border-radius 5px
+				background blue2
+				font-size 22px
+				float none
+				margin-right 10px
+				color white
+				a
+					display block
+					color white
+					padding 10px

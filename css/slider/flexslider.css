@@ -179,10 +179,10 @@ html[xmlns] .slides {
 	z-index:500;
 }
 .flex-direction-nav li .flex-prev {
-	background: url(./images/arrow_left.png) center center no-repeat;
+	background: url(./images/slider/slider-prev.png) center center no-repeat;
 }
 .flex-direction-nav li .flex-next {
-	background: url(./images/arrow_right.png) center center no-repeat;
+	background: url(./images/slider/slider-next.png) center center no-repeat;
 }
 .flex-direction-nav li .flex-prev {
 	left: 0;

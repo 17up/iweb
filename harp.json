@@ -15,28 +15,91 @@
 				},
 				{
 					"id": "2",
-					"image": "./assets/images/product/zen.jpg",
+					"image": "./assets/images/product/e.jpg",
 					"title": "Spas & Hot Tubs"
 				},
 				{
 					"id": "3",
-					"image": "./assets/images/product/girl.jpg",
+					"image": "./assets/images/product/rock.jpg",
 					"title": "Freestanding Baths"
 				},
 				{
 					"id": "4",
-					"image": "./assets/images/product/girl.jpg",
+					"image": "./assets/images/product/girl2.jpg",
 					"title": "Spas Baths"
 				},
 				{
 					"id": "5",
-					"image": "./assets/images/product/girl.jpg",
+					"image": "./assets/images/product/boy.jpg",
 					"title": "Saunas"
 				},
 				{
 					"id": "6",
 					"image": "./assets/images/product/zen.jpg",
 					"title": "Outdoor Furniture"
+				}
+			],
+			"features": [
+				{
+					"title": "Energy Efficiency",
+					"image": "paperplane.png",
+					"desc": "The Zen Spas has not only been engineered ding the absolute best hot tub ownership experience. This section is dedicated to you… our valued hot tub customers. You don’t have to subject your family to unncessary chemical exposure."
+				},
+				{
+					"title": "Water Purity",
+					"image": "lab.png",
+					"desc": "Instead of injecting ozone into  with contaminants in the water. You can relax and enjoy the spa with your family knowi which produce pure crystal clear water have been created and installed reducing the need for excessive chemicals."
+				},
+				{
+					"title": "In-Spa Experience",
+					"image": "like.png",
+					"desc": "Instead of injecting ozone into  with contaminants in the water. You can relax and enjoy "
+				}
+			],
+			"comments": [
+				{
+					"author": "Kelly Stubbins",
+					"content": "“Hi Joanne, I would like to take this opportunity to thhe spa into a very difficult top flo.”"
+				},
+				{
+					"author": "Kelly Stubbins",
+					"content": "“Hi Andrew, Just took delivery of my new Cerium Spa and it is everything I hoped. I price!! Great job Zen spas, will be recommending you to all my friends and family .”"
+				},
+				{
+					"author": "Kelly Stubbins",
+					"content": "“Before I began swimming in an Zen Spa swim sput after training in one, I am convinced that the Zen swim spas will give you a great, low impact workout, no matter what your swimming ability.”"
+				}
+			],
+			"specials": [
+				{
+					"title": "Royal furniture",
+					"price": {
+						"was": "2000",
+						"now": "1400",
+						"save": "600"
+					},
+					"tag": "s1",
+					"image": "./assets/images/bg.jpg"
+				},
+				{
+					"title": "Swin Spa",
+					"price": {
+						"was": "2000",
+						"now": "1400",
+						"save": "600"
+					},
+					"tag": "s2",
+					"image": "./assets/images/bg.jpg"
+				},
+				{
+					"title": "Microsilk Spa",
+					"price": {
+						"was": "2000",
+						"now": "1400",
+						"save": "600"
+					},
+					"tag": "s3",
+					"image": "./assets/images/bg.jpg"
 				}
 			]
 		}
