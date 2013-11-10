@@ -1,0 +1,17 @@
+!!! 5
+html(lang="en")
+	head
+		- var title = "Zen Spas | Dealer"
+		include _includes/header
+	body(data-spy="scroll" data-target=".navigation" data-offset="94")
+		nav#nav.sticky-nav.navigation
+			.container
+				h1#logo
+					a(href = "/" title=title)
+						span.htitle= title
+						img(src="./assets/images/logo.jpg" width="243" height="80")
+
+		#maps
+			img(src="./assets/images/maps.jpg")
+		include _includes/footer
+

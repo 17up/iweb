@@ -10,6 +10,9 @@ article
 						.overlay
 							.thumb-info
 								h3.dancing= item.title
+		.dealer
+			a(href = "/dealer")
+				| Need a Dealer?
 	#features
 		.container
 			h2.title WHY ZEN SPAS?
@@ -67,31 +70,29 @@ article
 							span.m= "$" + item.price.save
 
 	#contact
-		#google-map
-		#contact-section
-			.container
-				.title
-					span.fa.fa-envelope
-					p.dancing Contact
-				#contact-form
-					form(action="/")
-						#contact-input
-							input(type="text" name="name" required="required" placeholder="name")
-							input(type="text" name="email" required="required" placeholder="email")
-							input(type="text" name="subject" required="required" placeholder="subject")
-						#contact-textarea
-							textarea#contactMessage.required(name="contactMessage" placeholder="Message")
-						#contact-submit
-							input#submitform(type="submit" value="Send")
-				.socials
-					.item
-						a(href="http://twitter.com")
-							span.fa.fa-twitter
-					.item
-						a(href="http://facebook.com")
-							span.fa.fa-facebook-square
-					.item
-						a(href="http://weibo.com")
-							span.fa.fa-weibo
+		.container
+			.title
+				span.fa.fa-envelope
+				p.dancing Contact
+			#contact-form
+				form(action="/")
+					#contact-input
+						input(type="text" name="name" required="required" placeholder="name")
+						input(type="text" name="email" required="required" placeholder="email")
+						input(type="text" name="subject" required="required" placeholder="subject")
+					#contact-textarea
+						textarea#contactMessage.required(name="contactMessage" placeholder="Message")
+					#contact-submit
+						input#submitform(type="submit" value="Send")
+			.socials
+				.item
+					a(href="http://twitter.com")
+						span.fa.fa-twitter
+				.item
+					a(href="http://facebook.com")
+						span.fa.fa-facebook-square
+				.item
+					a(href="http://weibo.com")
+						span.fa.fa-weibo
 
 

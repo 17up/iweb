@@ -1,0 +1,9 @@
+mixin nav_li(obj)
+	for li,i in obj
+		if i == 0
+			- var classes = ["active"]
+		else
+			- var classes = []
+		li(class = classes)
+			a(href = li.link)= li.text
+

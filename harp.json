@@ -1,12 +1,34 @@
 {
 	"globals": {
-		"title": "zenspa",
+		"title": "Zen Spas",
 		"description": "Zen Spas is a gift to your body and soul",
 		"keywords": "zen spas spa swim",
 		"footer": {
 			"text": "Copyright &copy; 2013 Zen Spas"
 		},
 		"body": {
+			"nav_li": [
+				{
+					"link": "#home",
+					"text": "Home"
+				},
+				{
+					"link": "#products",
+					"text": "Products"
+				},
+				{
+					"link": "#features",
+					"text": "Features"
+				},
+				{
+					"link": "#specials",
+					"text": "Specials"
+				},
+				{
+					"link": "#contact",
+					"text": "Contact"
+				}
+			],
 			"products": [
 				{
 					"id": "1",

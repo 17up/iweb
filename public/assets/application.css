@@ -11,7 +11,7 @@ body{min-width:940px}
 #nav #menu ul:before,#nav #menu ul:after{content:"";display:table}
 #nav #menu ul:after{clear:both}
 #nav #menu li{display:inline-block;line-height:92px;z-index:14;float:left;}
-#nav #menu li a{display:block;color:#bdc3c7;outline:none;letter-spacing:0;overflow:hidden;font-size:18px;margin:0 15px;font-family:"微软雅黑","黑体",monospace,sans-serif;height:89px}
+#nav #menu li a{display:block;color:#bdc3c7;outline:none;letter-spacing:0;overflow:hidden;font-size:18px;margin:0 15px;font-family:"微软雅黑","黑体",monospace,sans-serif;height:89px;font-weight:bold}
 #nav #menu li:hover a{color:#428cce}
 #nav #menu li.active a{color:#428cce;border-bottom:3px solid #428cce}
 #banner_main{max-height:550px !important;margin:0 auto}
@@ -19,7 +19,10 @@ body{min-width:940px}
 .banner_green{font-size:30px;color:#fff;line-height:30px;z-index:3;background-color:#428cce;padding:10px 20px 10px 20px}
 .banner_white{font-size:30px;line-height:30px;color:#393939;z-index:3;background-color:#f5f5f5;padding:5px 20px 5px 20px}
 #home{margin-bottom:20px}
-#products{padding-top:100px;margin-bottom:20px;}
+#products{padding-top:60px;margin-bottom:20px;}
+#products .dealer{text-align:center;font-size:32px;padding:40px 0;}
+#products .dealer a{color:#4eb1e6;}
+#products .dealer a:hover{color:#428cce}
 #products .title{text-align:center;}
 #products .title h1{font-size:40px;background:#428cce;color:#fff;margin:20px 0 40px 0;font-weight:normal;display:inline-block;padding:10px;border:4px solid #fff;-moz-box-shadow:0 0 0 3px #428cce;-webkit-box-shadow:0 0 0 3px #428cce;box-shadow:0 0 0 3px #428cce}
 #products .container{width:900px;margin:0 auto;}
@@ -62,22 +65,22 @@ body{min-width:940px}
 #specials .container .threecolumn li.now span.t{font-size:22px;font-weight:bold}
 #specials .container .threecolumn li.now span.m{font-size:34px}
 #specials .container .threecolumn.highlight{z-index:5}
-#contact{margin-top:80px}
-#google-map{height:450px;width:100%;background:#fff;-moz-box-shadow:0 3px 0 rgba(0,0,0,0.06);-webkit-box-shadow:0 3px 0 rgba(0,0,0,0.06);box-shadow:0 3px 0 rgba(0,0,0,0.06)}
-#contact-section{margin-top:20px;background:#428cce url("./images/foot.jpg") center no-repeat;height:440px;}
-#contact-section .container{width:940px;margin:0 auto;}
-#contact-section .container .title{padding:30px 0;text-align:center;font-size:32px;color:#428cce}
-#contact-section .container input:focus,#contact-section .container textarea:focus{outline:none}
-#contact-section .container #contact-form:before,#contact-section .container #contact-form:after{content:"";display:table}
-#contact-section .container #contact-form:after{clear:both}
-#contact-section .container #contact-input{overflow:hidden;margin-bottom:13px;width:50%;float:left;}
-#contact-section .container #contact-input input{border:1px solid #e8e8e8;width:90%;font-size:13px;color:#747474;padding:20px 2%;float:left;margin:0 1% 2%;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;background:rgba(255,255,255,0.6)}
-#contact-section .container #contact-textarea{width:50%;float:right;}
-#contact-section .container #contact-textarea textarea{border:1px solid #e8e8e8;width:95%;height:92px;font-size:13px;color:#747474;padding:20px 11px 10px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;margin-bottom:10px;background:rgba(255,255,255,0.6)}
-#contact-section .container #submitform{border:0 none;padding:15px 24px 15px 24px;color:#fff;width:50%;cursor:pointer;font-size:22px;font-weight:bold;float:right;background:#428cce}
-#contact-section .container .socials{padding:20px;text-align:center;}
-#contact-section .container .socials .item{display:inline-block;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background:#4eb1e6;font-size:22px;float:none;margin-right:10px;color:#fff;}
-#contact-section .container .socials .item a{display:block;color:#fff;padding:10px}
+#contact{margin-top:80px;background:#428cce url("./images/foot.jpg") center no-repeat;height:440px;}
+#contact .container{width:940px;margin:0 auto;}
+#contact .container .title{padding:30px 0;text-align:center;font-size:32px;color:#428cce}
+#contact .container input:focus,#contact .container textarea:focus{outline:none}
+#contact .container #contact-form:before,#contact .container #contact-form:after{content:"";display:table}
+#contact .container #contact-form:after{clear:both}
+#contact .container #contact-input{overflow:hidden;margin-bottom:13px;width:50%;float:left;}
+#contact .container #contact-input input{border:1px solid #e8e8e8;width:90%;font-size:13px;color:#747474;padding:20px 2%;float:left;margin:0 1% 2%;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;background:rgba(255,255,255,0.6)}
+#contact .container #contact-textarea{width:50%;float:right;}
+#contact .container #contact-textarea textarea{border:1px solid #e8e8e8;width:95%;height:92px;font-size:13px;color:#747474;padding:20px 11px 10px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;margin-bottom:10px;background:rgba(255,255,255,0.6)}
+#contact .container #submitform{border:0 none;padding:15px 24px 15px 24px;color:#fff;width:50%;cursor:pointer;font-size:22px;font-weight:bold;float:right;background:#428cce}
+#contact .container .socials{padding:20px;text-align:center;}
+#contact .container .socials .item{display:inline-block;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background:#4eb1e6;font-size:22px;float:none;margin-right:10px;color:#fff;}
+#contact .container .socials .item a{display:block;color:#fff;padding:10px}
+#maps{text-align:center;max-width:1000px;width:1000px;margin:0 auto;}
+#maps img{width:100%}
 @font-face{font-family:DancingScript;font-style:normal;src:url("./font/DancingScript.woff")}
 .dancing{font-family:DancingScript}
 html,ul,li{margin:0;padding:0}
