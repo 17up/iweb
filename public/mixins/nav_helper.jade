@@ -7,3 +7,7 @@ mixin nav_li(obj)
 		li(class = classes)
 			a(href = li.link)= li.text
 
+mixin logo(title,src)
+	a(href = "/" title=title)
+		span.htitle= title
+		img(src=src)

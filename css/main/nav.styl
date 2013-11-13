@@ -3,7 +3,8 @@
 width = 940px
 blue = #428cce
 silver = #bdc3c7
-nav_height = 92px
+nav_height = 5.75em
+nav_border = 0.25em
 
 body
 	min-width width
@@ -36,6 +37,7 @@ body
 		li
 			display inline-block
 			line-height nav_height
+			height nav_height
 			z-index 14
 			float left
 			a
@@ -44,10 +46,10 @@ body
 				outline none
 				letter-spacing 0
 				overflow hidden
-				font-size 18px
+				font-size 1em
 				margin 0 15px
 				font_family_yahei()
-				height (nav_height - 3)
+				height (nav_height - nav_border)
 				font-weight bold
 		li:hover
 			a
@@ -55,4 +57,4 @@ body
 		li.active
 			a
 				color blue
-				border-bottom 3px solid blue
+				border-bottom nav_border solid blue

@@ -3,9 +3,7 @@ include ../mixins/nav_helper
 nav#nav.sticky-nav.navigation
 	.container
 		h1#logo
-			a(href = "/" title=title)
-				span.htitle= title
-				img(src="./assets/images/logo.jpg" width="243" height="80")
+			mixin logo(title,logo_img)
 		#menu
 			ul#headline.nav
 				mixin nav_li(body.nav_li)

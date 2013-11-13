@@ -3,6 +3,7 @@
 		"title": "Zen Spas",
 		"description": "Zen Spas is a gift to your body and soul",
 		"keywords": "zen spas spa swim",
+		"logo_img": "./assets/images/logo.jpg",
 		"footer": {
 			"text": "Copyright &copy; 2013 Zen Spas"
 		},
@@ -18,7 +19,7 @@
 				},
 				{
 					"link": "#features",
-					"text": "Features"
+					"text": "Why Zen"
 				},
 				{
 					"link": "#specials",
