@@ -5,11 +5,17 @@ html(lang="en")
 	head
 		- var title = "Zen Spas | Dealer"
 		include _includes/header
-	body(data-spy="scroll" data-target=".navigation" data-offset="94")
+	body(data-spy="scroll" data-target=".navigation" data-offset="94" data-init="dealer")
 		nav#nav.sticky-nav.navigation
 			.container
 				h1#logo
 					mixin logo(title,logo_img)
-
+		article
+			#dealer
+				.container
+					h2.title Find Your Near Dealer
+					.clearfix
+						.country_selector.left
+						.dealer_list.right
 		include _includes/footer
 

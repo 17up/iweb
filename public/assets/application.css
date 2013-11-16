@@ -18,6 +18,7 @@ body{min-width:940px}
 #banner_slider{max-height:550px !important}
 .banner_green{font-size:30px;color:#fff;line-height:30px;z-index:3;background-color:#428cce;padding:10px 20px 10px 20px}
 .banner_white{font-size:30px;line-height:30px;color:#393939;z-index:3;background-color:#f5f5f5;padding:5px 20px 5px 20px}
+.container{width:900px;margin:0 auto}
 #home{margin-bottom:20px}
 #products{padding-top:60px;margin-bottom:20px;}
 #products .dealer{text-align:center;font-size:2em;padding:40px 0;}
@@ -79,6 +80,11 @@ body{min-width:940px}
 #contact .container .socials{padding:1.25em;text-align:center;}
 #contact .container .socials .item{display:inline-block;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background:#4eb1e6;font-size:1.375em;float:none;margin-right:10px;color:#fff;}
 #contact .container .socials .item a{display:block;color:#fff;padding:10px}
+#dealer{height:700px;}
+#dealer .title{font-size:32px;padding:20px}
+#dealer .country_selector{width:29%;height:100%;}
+#dealer .country_selector select{width:200px}
+#dealer .dealer_list{width:70%;height:100%;background:#f5f5f5}
 @font-face{font-family:DancingScript;font-style:normal;src:url("./font/DancingScript.woff")}
 @font-face{font-family:Amienne;src:url("./font/Amienne/Amienne.eot");src:url("./font/Amienne/Amienne.eot?#iefix") format('embedded-opentype'),url("./font/Amienne/Amienne.woff") format('woff'),url("./font/Amienne/Amienne.ttf") format('truetype'),url("./font/Amienne/Amienne.svg") format('svg');font-weight:normal;font-style:normal}
 @font-face{font-family:Pacifico;font-style:normal;src:url("./font/Pacifico.woff")}
@@ -95,6 +101,8 @@ ul,li{list-style:none}
 img{border:none;vertical-align:middle}
 .clearfix:before,.clearfix:after{content:"";display:table}
 .clearfix:after{clear:both}
+.left{float:left}
+.right{float:right}
 .text_justify{text-align:justify;text-justify:distribute-all-lines;text-align-last:justify;-moz-text-align-last:justify;-webkit-text-align-last:justify}
 
 /*-----------------------------------------------------------------------------

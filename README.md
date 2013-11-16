@@ -7,3 +7,5 @@ compile jade
 `harp server --port 9000`
 
 `harp compile`
+
+// mixin javascript_include_tag("https://maps.googleapis.com/maps/api/js?key=AIzaSyDrx8B0GDF3Nvg4skDM82MlV0bRm8rwQtc&sensor=false")
