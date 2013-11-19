@@ -1,4 +1,6 @@
-select
+label(for="country_sel")
+	= text || "Please select your country:"
+select#country_sel
 	for item in countries
 		option(value = item.code)
 			= item.name

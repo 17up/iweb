@@ -12,10 +12,37 @@ html(lang="en")
 					mixin logo(title,logo_img)
 		article
 			#dealer
+				.page_title
+					h2.title
+						i.fa.fa-location-arrow
+						|Find Your Near Dealer
 				.container
-					h2.title Find Your Near Dealer
-					.clearfix
+					.inner_container.clearfix
 						.country_selector.left
+							h4.desc
+								i.fa.fa-map-marker
+								| DEALER LOCATOR
+							.selector
+
 						.dealer_list.right
+							ul.list
+								for item in body.dealers
+									li.item
+										h3.name= item.name
+										.tel
+											i.fa.fa-phone-square
+											= item.tel
+										.email
+											i.fa.fa-envelope
+											a(href="mailto:#{item.email}")
+												= item.email
+										.website
+											i.fa.fa-desktop
+											a(href=item.url) View Website
+										.action
+											a(href="/quote")
+												span.btn.btn-primary
+													| Get Dealer Pricing
+													i.fa.fa-chevron-circle-right
 		include _includes/footer
 

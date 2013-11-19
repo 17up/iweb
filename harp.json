@@ -124,6 +124,20 @@
 					"tag": "s3",
 					"image": "./assets/images/bg.jpg"
 				}
+			],
+			"dealers": [
+				{
+					"name": "JACUZZI CHILE",
+					"tel": "56-25575408",
+					"email": "kkxlkkxllb@gmail.com",
+					"url": "http://17up.org"
+				},
+				{
+					"name": "JACUZZI CHILE",
+					"tel": "56-25575408",
+					"email": "kkxlkkxllb@gmail.com",
+					"url": "http://17up.org"
+				}
 			]
 		}
 	}
