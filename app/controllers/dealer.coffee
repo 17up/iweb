@@ -1,5 +1,3 @@
-Spine = require('spine')
-
 class Dealer extends Spine.Controller
 	constructor: ->
 		super

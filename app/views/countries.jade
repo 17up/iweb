@@ -1,6 +1,7 @@
-label(for="country_sel")
+span.label
 	= text || "Please select your country:"
-select#country_sel
-	for item in countries
-		option(value = item.code)
-			= item.name
+.input-group
+	select#country_sel.form-control
+		for item in countries
+			option(value = item.code)
+				= item.name

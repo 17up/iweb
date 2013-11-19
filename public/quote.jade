@@ -21,14 +21,34 @@ html(lang="en")
 						p Whether you’re in need of a spa pool for romance, time with you family and friends, relaxation or beauty purposes, Zen Spas has a solution for you.
 						p Please fill in the short form below and we will provide you with a no obligation quote.
 					.form
-						.product
-							label Product:
-							for item in body.products
-								span.item
-									input(type="checkbox" name="product[]")
-									span.p_desc= item.title
-						.model
-							label Model*:
-							input(type="text" name="model")
-						.country_selector
-							.selector
+						form(action="#")
+							.product.form-group
+								span.label Product*:
+								.input-group
+									for item in body.products
+										label.item
+											input(type="checkbox" name="product[]")
+											span.p_desc= item.title
+							.country_selector.form-group
+								.selector
+							.form-group
+								label Model*:
+								input.form-control(type="text" name="model" required="required" placeholder="Please specify model and any related information")
+							.form-group
+								label Name*:
+								input.form-control(type="text" name="name" required="required")
+							.form-group
+								label Address*:
+								input.form-control(type="text" name="address" required="required")
+							.form-group
+								label Postcode*:
+								input.form-control(type="text" name="postcode" required="required")
+							.form-group
+								label Email Address*:
+								input.form-control(type="text" name="email" required="required")
+							.form-group
+								label Telephone*:
+								input.form-control(type="text" name="tel" required="required")
+							.form-group
+								span.btn.btn-primary
+									| Submit

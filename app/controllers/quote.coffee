@@ -1,5 +1,3 @@
-Spine = require('spine')
-
 class Quote extends Spine.Controller
 	constructor: ->
 		super
@@ -7,4 +5,5 @@ class Quote extends Spine.Controller
 		$.getJSON file, (json) =>
 			view = require("views/countries")(countries: json,text: "Location: ")
 			$(".country_selector .selector").html view
+
 module.exports = Quote
