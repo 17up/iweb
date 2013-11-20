@@ -1,6 +1,5 @@
-class Home extends Spine.Controller
+class Home
 	constructor: ->
-		super
 		$('#banner_slider').revolution
 			startwidth: 940
 			startheight: 550

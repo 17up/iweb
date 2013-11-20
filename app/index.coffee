@@ -3,7 +3,7 @@ Spine = require('spine')
 
 $ ->
 	cl = $("body").data().init
-	new require("controllers/" + cl)(el: $("body"))
+	new require(cl)()
 
 
 

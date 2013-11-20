@@ -1,0 +1,34 @@
+include mixins/nav_helper
+
+!!! 5
+html(lang="en")
+	head
+		- var title = "Zen Spas | Products"
+		include _includes/header
+	body(data-spy="scroll" data-target=".navigation" data-offset="94" data-init="product")
+		nav#nav.sticky-nav.navigation
+			.zen_container
+				h1#logo
+					mixin logo(title,logo_img)
+				#menu
+					ul#headline.nav
+						li
+							a(href="/")
+								| Home
+		article
+			#product.wrapper
+				.page_title
+					h2.title
+						i.fa.fa-list
+						span.pname
+				.zen_container
+					.catelog
+						.btn-group.btn-group-lg
+							for item in body.products
+								button.p_cate.btn.btn-default(type="button" rel=item.id)
+									= item.title
+					.content
+						.image
+						.table
+
+		include _includes/footer

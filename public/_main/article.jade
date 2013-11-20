@@ -1,8 +1,8 @@
-article
+article.home
 	#products
 		.title
 			h1 Our Products
-		.container.clearfix
+		.zen_container.clearfix
 			each item in body.products
 				.item
 					a.image(href = "/product/#{item.id}")
@@ -14,7 +14,7 @@ article
 			a(href = "/dealer")
 				| Need a Dealer?
 	#features
-		.container
+		.zen_container
 			h2.title WHY ZEN SPAS?
 			.clearfix
 				for item,i in body.features
@@ -32,7 +32,7 @@ article
 					| ~ More Features ~
 	#quotes
 		.overlay
-		.container
+		.zen_container
 			.title
 				img(src="./assets/images/flaticon_23.png")
 				div Customer Feedback
@@ -45,7 +45,7 @@ article
 								= "@" + item.author
 
 	#specials
-		.container
+		.zen_container
 			h2.title
 				span.fa.fa-star
 				p.pacifico Specials
@@ -70,7 +70,7 @@ article
 							span.m= "$" + item.price.save
 
 	#contact
-		.container
+		.zen_container
 			.title
 				span.fa.fa-envelope
 				p.pacifico Contact

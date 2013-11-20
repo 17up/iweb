@@ -7,16 +7,21 @@ html(lang="en")
 		include _includes/header
 	body(data-spy="scroll" data-target=".navigation" data-offset="94" data-init="quote")
 		nav#nav.sticky-nav.navigation
-			.container
+			.zen_container
 				h1#logo
 					mixin logo(title,logo_img)
+				#menu
+					ul#headline.nav
+						li
+							a(href="/")
+								| Home
 		article
-			#quote
+			#quote.wrapper
 				.page_title
 					h2.title
 						i.fa.fa-comment
 						|Need a Quote?
-				.container
+				.zen_container
 					.desc
 						p Whether you’re in need of a spa pool for romance, time with you family and friends, relaxation or beauty purposes, Zen Spas has a solution for you.
 						p Please fill in the short form below and we will provide you with a no obligation quote.
@@ -52,3 +57,4 @@ html(lang="en")
 							.form-group
 								span.btn.btn-primary
 									| Submit
+		include _includes/footer

@@ -7,7 +7,22 @@ html(lang="en")
 		include _includes/header
 	body(data-spy="scroll" data-target=".navigation" data-offset="94" data-init="feature")
 		nav#nav.sticky-nav.navigation
-			.container
+			.zen_container
 				h1#logo
 					mixin logo(title,logo_img)
+				#menu
+					ul#headline.nav
+						li
+							a(href="/")
+								| Home
 		article
+			#feature.wrapper
+				.page_title
+					h2.title
+						i.fa.fa-heart
+						| Features
+				.zen_container
+					.image
+					.table
+
+		include _includes/footer
