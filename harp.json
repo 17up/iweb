@@ -32,32 +32,32 @@
 			],
 			"products": [
 				{
-					"id": "1",
+					"cate": "c1",
 					"image": "./assets/images/product/girl.jpg",
 					"title": "Swim Spas"
 				},
 				{
-					"id": "2",
+					"cate": "c2",
 					"image": "./assets/images/product/e.jpg",
 					"title": "Spas & Hot Tubs"
 				},
 				{
-					"id": "3",
+					"cate": "c3",
 					"image": "./assets/images/product/rock.jpg",
 					"title": "Freestanding Baths"
 				},
 				{
-					"id": "4",
+					"cate": "c4",
 					"image": "./assets/images/product/girl2.jpg",
 					"title": "Spas Baths"
 				},
 				{
-					"id": "5",
+					"cate": "c5",
 					"image": "./assets/images/product/boy.jpg",
 					"title": "Saunas"
 				},
 				{
-					"id": "6",
+					"cate": "c6",
 					"image": "./assets/images/product/zen.jpg",
 					"title": "Outdoor Furniture"
 				}
@@ -128,15 +128,15 @@
 			"dealers": [
 				{
 					"name": "JACUZZI CHILE",
+					"address": "Horseshoe Pike Mulgrave 777",
 					"tel": "56-25575408",
-					"email": "kkxlkkxllb@gmail.com",
-					"url": "http://17up.org"
+					"email": "kkxlkkxllb@gmail.com"
 				},
 				{
 					"name": "JACUZZI CHILE",
+					"address": "Horseshoe Pike Mulgrave 777Horseshoe Pike Mulgrave",
 					"tel": "56-25575408",
-					"email": "kkxlkkxllb@gmail.com",
-					"url": "http://17up.org"
+					"email": "kkxlkkxllb@gmail.com"
 				}
 			]
 		}

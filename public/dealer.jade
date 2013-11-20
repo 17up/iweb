@@ -19,7 +19,7 @@ html(lang="en")
 			#dealer.wrapper
 				.page_title
 					h2.title
-						i.fa.fa-location-arrow
+						i.fa.fa-search
 						|Find Your Near Dealer
 				.zen_container
 					.inner_container.clearfix
@@ -34,16 +34,16 @@ html(lang="en")
 								for item in body.dealers
 									li.item
 										h3.name= item.name
-										.tel
+										.address.info
+											i.fa.fa-location-arrow
+											= item.address
+										.tel.info
 											i.fa.fa-phone-square
 											= item.tel
-										.email
+										.email.info
 											i.fa.fa-envelope
 											a(href="mailto:#{item.email}")
 												= item.email
-										.website
-											i.fa.fa-desktop
-											a(href=item.url) View Website
 										.action
 											a(href="/quote")
 												span.btn.btn-primary

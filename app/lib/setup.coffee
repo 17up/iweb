@@ -19,4 +19,5 @@ require("lib/slider/jquery.themepunch.plugins.min")
 require("lib/slider/jquery.themepunch.revolution")
 require("lib/slider/jquery.transit")
 require("lib/slider/jquery.flexslider-min")
+require("lib/jquery/bootstrap.min")
 

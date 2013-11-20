@@ -5,7 +5,7 @@ article.home
 		.zen_container.clearfix
 			each item in body.products
 				.item
-					a.image(href = "/product/#{item.id}")
+					a.image(href = "/products##{item.cate}")
 						img(src=item.image title=item.title)
 						.overlay
 							.thumb-info
