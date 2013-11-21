@@ -5,7 +5,7 @@ html(lang="en")
 	head
 		- var title = "Zen Spas | Features"
 		include _includes/header
-	body(data-spy="scroll" data-target=".navigation" data-offset="94" data-init="feature")
+	body(data-spy="scroll" data-target=".bs-sidebar" data-offset="94" data-init="feature")
 		nav#nav.sticky-nav.navigation
 			.zen_container
 				h1#logo
@@ -24,30 +24,34 @@ html(lang="en")
 				.zen_container
 					.image
 						img(src="./assets/images/bg2.jpg")
-					ul.nav-tabs.nav
-						li.active
-							a(href="#f1") Structural Integrity
-						li
-							a(href="#f2") Energy Efficiency
-						li
-							a(href="#f3") Water Purity
-						li
-							a(href="#f4") Massage Therapy
-						li
-							a(href="#f5") In-Spa Experience
-						li
-							a(href="#f6") Easy Maintenance
+					.col-md-3
+						.sider_bar.bs-sidebar
+							ul.nav.bs-sidenav
+								li
+									a(href="#f1") Structural Integrity
+								li
+									a(href="#f2") Energy Efficiency
+								li
+									a(href="#f3") Water Purity
+								li
+									a(href="#f4") Massage Therapy
+								li
+									a(href="#f5") In-Spa Experience
+								li
+									a(href="#f6") Easy Maintenance
+					.col-md-9(role="main")
+						#f1.section
+							h2 Structural Integrity
+							.content
 
-					#f1
-						h2 Structural Integrity
-					#f2
-						h2 Energy Efficiency
-					#f3
-						h2 Water Purity
-					#f4
-						h2 Massage Therapy
-					#f5
-						h2 In-Spa Experience
-					#f6
-						h2 Easy Maintenance
+						#f2.section
+							h2 Energy Efficiency
+						#f3.section
+							h2 Water Purity
+						#f4.section
+							h2 Massage Therapy
+						#f5.section
+							h2 In-Spa Experience
+						#f6.section
+							h2 Easy Maintenance
 		include _includes/footer
