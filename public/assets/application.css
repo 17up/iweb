@@ -118,7 +118,10 @@ h2 i,h4 i{margin-right:10px}
 #feature .col-md-9{float:left;width:65%;position:relative;min-height:1px;padding:0 15px}
 #feature .image{margin:20px 0;width:940px;overflow:hidden;}
 #feature .image img{height:380px}
-#feature .section{height:500px;margin:20px 0}
+#feature .section{margin:30px 0;}
+#feature .section h2{color:#fff;padding:10px;background:#428cce}
+#feature .section .content h3{padding-left:10px;margin:10px 0;border-left:3px solid #428cce;color:#428cce}
+#feature .section .content p{text-indent:20px;line-height:1.5em;margin:10px 0}
 @font-face{font-family:DancingScript;font-style:normal;src:url("./font/DancingScript.woff")}
 @font-face{font-family:Amienne;src:url("./font/Amienne/Amienne.eot");src:url("./font/Amienne/Amienne.eot?#iefix") format('embedded-opentype'),url("./font/Amienne/Amienne.woff") format('woff'),url("./font/Amienne/Amienne.ttf") format('truetype'),url("./font/Amienne/Amienne.svg") format('svg');font-weight:normal;font-style:normal}
 @font-face{font-family:Pacifico;font-style:normal;src:url("./font/Pacifico.woff")}
@@ -3279,7 +3282,7 @@ fieldset[disabled] .checkbox-inline {
   /* Widen the fixed sidebar */
   .bs-sidebar.affix {
     position: fixed; /* Undo the static from mobile first approach */
-    top: 80px;
+    top: 120px;
     width: 263px;
   }
   .bs-sidebar.affix-bottom {

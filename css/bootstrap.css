@@ -865,7 +865,7 @@ fieldset[disabled] .checkbox-inline {
   /* Widen the fixed sidebar */
   .bs-sidebar.affix {
     position: fixed; /* Undo the static from mobile first approach */
-    top: 80px;
+    top: 120px;
     width: 263px;
   }
   .bs-sidebar.affix-bottom {
