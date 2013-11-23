@@ -1,8 +1,44 @@
 @import './mixin'
 
 f_bg = #428cce
+blue2 = #4eb1e6
+blue = #428cce
 
 footer
+	.second
+		background blue2
+	.socials
+		padding 1.25em
+		text-align center
+		.item
+			display inline-block
+			border-radius 5px
+			background blue
+			font-size 1.375em
+			float none
+			margin-right 10px
+			a
+				display block
+				color white
+				padding 10px
+	.quick
+		clearfix()
+		width 400px
+		margin 0 auto
+		padding-bottom 20px
+		.item
+			float left
+			width 180px
+			padding 3px 3px 3px 10px
+			border-left 4px solid blue
+			margin-bottom 5px
+			margin-right 3px
+			background #008cdd
+			a
+				color white
+				font-weight bold
+				&:hover
+					text-decoration underline
 	.fs
 		text-align center
 		background-color f_bg

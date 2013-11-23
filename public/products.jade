@@ -21,14 +21,35 @@ html(lang="en")
 					h2.title
 						i.fa.fa-list
 						span.pname
-				.zen_container
-					.catelog
+				.catelog
+					.middle
 						.btn-group.btn-group-lg
 							for item in body.products
 								button.p_cate.btn.btn-default(type="button" rel=item.id)
 									= item.title
+				.zen_container
 					.content
-						.image
-						.table
-
+						for item in body.pds
+							.item
+								.p_image
+									img(src="./assets/images/product/spas/#{item.id}.jpg")
+								.info
+									h3 Three
+									.desc
+										| The biggest selling compact family spa perfect for the whole family.
+									.summary
+										.seats
+											span.text Seats
+											span.num 3
+										.jets
+											span.text Jets
+											span.num 19
+										.size
+											span.text Size
+											span.num 208 x 157 x 84cm
+								.action
+									a.btn.btn-default(href="/product")
+										| More Infomation
+									a.btn.btn-primary(href="/quote")
+										| Request a Quote
 		include _includes/footer

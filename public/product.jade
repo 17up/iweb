@@ -1,0 +1,29 @@
+include mixins/nav_helper
+
+!!! 5
+html(lang="en")
+	head
+		- var title = "Zen Spas | Product"
+		include _includes/header
+	body
+		nav#nav.sticky-nav.navigation
+			.zen_container
+				h1#logo
+					mixin logo(title,logo_img)
+				#menu
+					ul#headline.nav
+						li
+							a(href="/")
+								| Home
+		article
+			#product.wrapper
+				.page_title
+					h2.title
+						| Contessa_TS
+				.zen_container
+					.p_content
+						.left.detail
+							.desc
+
+						.right.images
+			include _includes/footer

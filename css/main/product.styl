@@ -1,0 +1,81 @@
+@import '../mixin'
+
+blue = #428cce
+blue2 = #4eb1e6
+
+#product
+	.zen_container
+		width max_width
+	.p_content
+		clearfix()
+		.detail
+			width 400px
+			height 700px
+			background #ccc
+		.images
+			height 700px
+			width 400px
+			background #ddd
+	.catelog
+		display block
+		padding 20px 0
+		background white
+		z-index 99
+		width 100%
+		.middle
+			width max_width
+			margin 0 auto
+	.catelog.sticky
+		box-shadow 0 1px 3px rgba(0, 0, 0, .12)
+	.content
+		margin-bottom 50px
+		.item
+			position relative
+			height 200px
+			margin-bottom 40px
+			padding 10px 0
+			border-bottom 1px solid #ddd
+			.info
+				padding 0px 200px 0px 250px
+				width 500px
+				position relative
+				height 100%
+				.desc
+					color #555
+				.summary
+					clearfix()
+					position absolute
+					bottom 10px
+					left 250px
+					> div
+						margin-right 15px
+						background blue2
+						padding 5px
+						float left
+						color white
+						position relative
+						padding-left 65px
+						border-radius 0 4px 4px 0
+						span.text
+							background blue
+							text-align center
+							padding 5px
+							width 50px
+							position absolute
+							left 0
+							top 0
+			.p_image
+				position absolute
+				top 10px
+				left 10px
+				img
+					width 200px
+			.action
+				position absolute
+				right 0
+				top 10px
+				a
+					display block
+					margin 10px
+		.item:last-child
+			border none

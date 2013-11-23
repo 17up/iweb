@@ -33,12 +33,12 @@
 			"products": [
 				{
 					"cate": "c1",
-					"image": "./assets/images/product/girl.jpg",
+					"image": "./assets/images/product/p2.jpg",
 					"title": "Swim Spas"
 				},
 				{
 					"cate": "c2",
-					"image": "./assets/images/product/e.jpg",
+					"image": "./assets/images/product/p1.jpg",
 					"title": "Spas & Hot Tubs"
 				},
 				{
@@ -137,6 +137,29 @@
 					"address": "Horseshoe Pike Mulgrave 777Horseshoe Pike Mulgrave",
 					"tel": "56-25575408",
 					"email": "kkxlkkxllb@gmail.com"
+				}
+			],
+			"pds": [
+				{
+					"id": 1
+				},
+				{
+					"id": 2
+				},
+				{
+					"id": 3
+				},
+				{
+					"id": 4
+				},
+				{
+					"id": 5
+				},
+				{
+					"id": 6
+				},
+				{
+					"id": 7
 				}
 			]
 		}
