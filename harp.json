@@ -43,13 +43,13 @@
 				},
 				{
 					"cate": "c3",
-					"image": "./assets/images/product/rock.jpg",
-					"title": "Freestanding Baths"
+					"image": "./assets/images/product/p1.jpg",
+					"title": "MicroSilk Spas"
 				},
 				{
 					"cate": "c4",
-					"image": "./assets/images/product/girl2.jpg",
-					"title": "Spas Baths"
+					"image": "./assets/images/product/rock.jpg",
+					"title": "Baths"
 				},
 				{
 					"cate": "c5",
