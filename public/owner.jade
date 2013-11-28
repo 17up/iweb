@@ -1,0 +1,24 @@
+include mixins/nav_helper
+
+!!! 5
+html(lang="en")
+	head
+		- var title = "Zen Spas | For Owners"
+		include _includes/header
+	body
+		nav#nav.sticky-nav.navigation
+			.zen_container
+				h1#logo
+					mixin logo(title,logo_img)
+				#menu
+					ul#headline.nav
+						li
+							a(href="/")
+								| Home
+		article
+			#feature.wrapper
+				.page_title
+					h2.title
+						i.fa.fa-heart
+						| For Owners
+				.zen_container

@@ -33,32 +33,32 @@
 			"products": [
 				{
 					"cate": "c1",
-					"image": "./assets/images/product/p2.jpg",
+					"image": "./assets/images/product/spas.png",
 					"title": "Swim Spas"
 				},
 				{
 					"cate": "c2",
-					"image": "./assets/images/product/p1.jpg",
+					"image": "./assets/images/product/spas.png",
 					"title": "Spas & Hot Tubs"
 				},
 				{
 					"cate": "c3",
-					"image": "./assets/images/product/p1.jpg",
+					"image": "./assets/images/product/micro.png",
 					"title": "MicroSilk Spas"
 				},
 				{
 					"cate": "c4",
-					"image": "./assets/images/product/rock.jpg",
+					"image": "./assets/images/product/baths.png",
 					"title": "Baths"
 				},
 				{
 					"cate": "c5",
-					"image": "./assets/images/product/boy.jpg",
+					"image": "./assets/images/product/saunas.png",
 					"title": "Saunas"
 				},
 				{
 					"cate": "c6",
-					"image": "./assets/images/product/zen.jpg",
+					"image": "./assets/images/product/baths.png",
 					"title": "Outdoor Furniture"
 				}
 			],

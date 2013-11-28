@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2013 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="youku" unicode="&#xe800;" d="m450 710c-16 0-31-4-44-13c-29-20-45-82-65-126c-21-48-40-97-61-132c-56 64-95 206-163 258c-22 17-70 16-92 0c-58-44 0-122 24-163c52-90 109-186 153-269c-28-75-172-287 20-275c47 30 67 93 92 150c52 116 96 216 150 336c22 50 76 124 64 180c-6 32-42 54-78 54z m466-46c-28 0-56-13-68-38c-20-23-42-45-65-65c-11-14-23-26-37-37c-16-17-29-37-51-48l0 133c-1 72-136 72-136 0l0-378c6-27 18-47 47-51l41 0c28 5 44 22 48 51l0 82c0 28-5 76 13 48c28-28 67-57 102-89c34-31 67-81 102-88c73-16 106 54 79 105c-29 54-111 88-147 136c24 55 154 88 143 184c-4 37-37 56-71 55z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
