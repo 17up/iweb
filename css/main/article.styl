@@ -45,7 +45,6 @@ red = #fd6c2a
 		.item
 			float left
 			width 280px
-			height 262px
 			margin 10px
 			.image
 				display block
@@ -54,7 +53,8 @@ red = #fd6c2a
 				color white
 				text-align center
 				img
-					width 200px
+					width 280px
+					border-radius 10px
 				h3
 					margin-top 10px
 					font-size 1em
@@ -153,7 +153,17 @@ red = #fd6c2a
 				font-weight bold
 				font-size 1.5em
 			li.image
+				position relative
+				.mask
+					position absolute
+					top 19px
+					left 19px
+					z-index 10
+					width 158px
+					height 153px
+					background url("./images/product/save.png") no-repeat
 				img
+					z-index 9
 					width 278px
 			li.price
 				color white

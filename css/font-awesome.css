@@ -1362,6 +1362,12 @@
 .fa-qq:before{
 	content: "\e009";
 }
+.fa-weixin:before {
+	content: "\e00d";
+}
+.fa-weixin-round:before {
+	content: "\e000";
+}
 @font-face {
   font-family: 'fontello';
   src: url('./font/fontello.eot?75139121');

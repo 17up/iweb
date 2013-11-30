@@ -33,32 +33,32 @@
 			"products": [
 				{
 					"cate": "c1",
-					"image": "./assets/images/product/swim.png",
+					"image": "./assets/images/product/p2.jpg",
 					"title": "Swim Spas"
 				},
 				{
 					"cate": "c2",
-					"image": "./assets/images/product/spas.png",
+					"image": "./assets/images/product/p4.jpg",
 					"title": "Spas & Hot Tubs"
 				},
 				{
 					"cate": "c3",
-					"image": "./assets/images/product/micro.png",
+					"image": "./assets/images/product/p1.jpg",
 					"title": "MicroSilk Spas"
 				},
 				{
 					"cate": "c4",
-					"image": "./assets/images/product/baths.png",
+					"image": "./assets/images/product/p6.jpg",
 					"title": "Baths"
 				},
 				{
 					"cate": "c5",
-					"image": "./assets/images/product/spas.png",
+					"image": "./assets/images/product/p5.jpg",
 					"title": "Saunas"
 				},
 				{
 					"cate": "c6",
-					"image": "./assets/images/product/furniture.png",
+					"image": "./assets/images/product/p7.jpg",
 					"title": "Outdoor Furniture"
 				}
 			],
@@ -98,31 +98,31 @@
 					"title": "Royal furniture",
 					"price": {
 						"was": "2000",
-						"now": "1400",
-						"save": "600"
+						"now": "1000",
+						"save": "1000"
 					},
 					"tag": "s1",
-					"image": "./assets/images/bg.jpg"
+					"image": "./assets/images/product/p7.jpg"
 				},
 				{
 					"title": "Swin Spa",
 					"price": {
 						"was": "2000",
-						"now": "1400",
-						"save": "600"
+						"now": "1000",
+						"save": "1000"
 					},
 					"tag": "s2",
-					"image": "./assets/images/bg.jpg"
+					"image": "./assets/images/product/p2.jpg"
 				},
 				{
 					"title": "Microsilk Spa",
 					"price": {
 						"was": "2000",
-						"now": "1400",
-						"save": "600"
+						"now": "1000",
+						"save": "1000"
 					},
 					"tag": "s3",
-					"image": "./assets/images/bg.jpg"
+					"image": "./assets/images/product/p4.jpg"
 				}
 			],
 			"dealers": [
