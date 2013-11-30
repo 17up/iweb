@@ -33,7 +33,7 @@
 			"products": [
 				{
 					"cate": "c1",
-					"image": "./assets/images/product/spas.png",
+					"image": "./assets/images/product/swim.png",
 					"title": "Swim Spas"
 				},
 				{
@@ -53,12 +53,12 @@
 				},
 				{
 					"cate": "c5",
-					"image": "./assets/images/product/saunas.png",
+					"image": "./assets/images/product/spas.png",
 					"title": "Saunas"
 				},
 				{
 					"cate": "c6",
-					"image": "./assets/images/product/baths.png",
+					"image": "./assets/images/product/furniture.png",
 					"title": "Outdoor Furniture"
 				}
 			],

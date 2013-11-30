@@ -5,7 +5,7 @@ html(lang="en")
 	head
 		- var title = "Zen Spas | For Owners"
 		include _includes/header
-	body
+	body(data-spy="scroll" data-target=".bs-sidebar" data-offset="94" data-init="owner")
 		nav#nav.sticky-nav.navigation
 			.zen_container
 				h1#logo
@@ -16,9 +16,102 @@ html(lang="en")
 							a(href="/")
 								| Home
 		article
-			#feature.wrapper
+			#owner.wrapper.two_stick
 				.page_title
 					h2.title
-						i.fa.fa-heart
+						i.fa.fa-cloud-download
 						| For Owners
 				.zen_container
+					.bg_image
+						img(src="./assets/images/bg3.jpg")
+					.col-md-3
+						.sider_bar.bs-sidebar
+							ul.nav.bs-sidenav
+								li
+									a(href="#f1") Download Brochure
+								li
+									a(href="#f2") Owner's Manuals
+								li
+									a(href="#f3") Maintenance Tips
+					.col-md-9(role="main")
+						#f1.section
+							h2
+								i.fa.fa-book
+								span Download Brochure
+							.content
+								h3 Register To Download
+								form(action="#")
+									.form-group
+										label Name*:
+										input.form-control(type="text" name="name" required="required" placeholder="")
+									.form-group
+										label Address*:
+										input.form-control(type="text" name="address" required="required" placeholder="")
+									.form-group
+										label City*:
+										input.form-control(type="text" name="city" required="required" placeholder="")
+									.form-group
+										label Country*:
+										input.form-control(type="text" name="country" required="required" placeholder="")
+									.form-group
+										label Postal Code*:
+										input.form-control(type="text" name="postcode" required="required" placeholder="")
+									.form-group
+										label Email*:
+										input.form-control(type="text" name="email" required="required" placeholder="")
+									.form-group
+										label Timeframe for Purchase*:
+										select.form-control
+											option(value) Choose One ...
+											option(value="1") Within one month
+											option(value="2") Within 1 to 3 months
+											option(value="3") Within 4 to 6 months
+											option(value="4") More than 6 months
+											option(value="5") Unknown
+									p
+										a(href="#")
+											span.btn.btn-primary
+												| Download Brochure
+												i.fa.fa-download
+						#f2.section
+							h2
+								i.fa.fa-cogs
+								span Owner's Manuals
+							.content
+								h3 HIGHLIFE OWNER'S MANUAL
+								p This 2013 Highlife Spas Owner's Manual (2.91 MB) will acquaint you with your new spa's operation and general maintenance.
+								p.note Note: To view these downloadable PDF documents, you need&nbsp;
+									a(href="http://get.adobe.com/reader/") Adobe Reader
+									| .
+								p
+									a(href="#")
+										span.btn.btn-primary
+											| Download 2013 Owner's Manual
+											i.fa.fa-download
+								h3 LIMELIGHT OWNER'S MANUAL
+								p This 2014 Limelight Spas Owner's Manual (2.94 MB) will acquaint you with your new spa's operation and general maintenance.
+								p.note Note: To view these downloadable PDF documents, you need&nbsp;
+									a(href="http://get.adobe.com/reader/") Adobe Reader
+									| .
+								p
+									a(href="#")
+										span.btn.btn-primary
+											| Download 2014 Owner's Manual
+											i.fa.fa-download
+						#f3.section
+							h2
+								i.fa.fa-exclamation-triangle
+								span Maintenance Tips
+							.content
+								p You can ensure many years of enjoyment and relaxation from your Hot Spring® spa with just a little bit of regular maintenance. Here are a few useful tips:
+								h3 CLEANING YOUR SPA
+								p To clean the spa shell, use a mild non-abrasive, non-sudsing cleaner and a soft rag or nylon scrubber to remove dirt build-up. Common baking soda can also be used for minor surface cleaning. After cleaning and drying your spa shell, apply FreshWater Spa Shine to keep your spa looking new. Also, the spa pillows can be removed and cleaned by following the instructions in your Owner's Manual. The hot tub vinyl cover is best cleaned and conditioned by following this step-by-step method: first, remove the cover and spray it lightly with a garden hose to loosen any dirt or debris that might have accumulated. Using a mild soap solution (1 teaspoon dishwashing liquid with 2 gallons water) or baking soda, scrub the vinyl in a circular motion with a large sponge. Promptly rinse with a garden hose. Rinse the bottom of the cover (do not use soap), and wipe it clean with a dry rag. To condition the cover after cleaning, apply a thin film of Hot Spring Cover Shield™ product.
+								h3 REPLACING YOUR SPA WATER
+								p Remember to drain your spa water and refill according to the instructions outlined in your Owner's Manual to eliminate detergent residue from bathing suits and soap film which may have accumulated in the spa water.
+								p For fresh, clean water right from the start, we recommend using the CleanScreenTM; Pre-Filter when filling your spa. This filter attaches to an ordinary garden hose and removes organic contaminants, metals (such as copper and iron), and tannins before they are introduced into the spa water.
+								h3 HOW TO WINTERIZE YOUR SPA
+								p If you live in an area which has freezing temperatures, you should purchase a Winter Blanket which is available at your local Hot Spring spa dealer. This vinyl-covered, fiberglass insulated blanket, which installs inside the equipment compartment door, provides an additional precaution against partial freezing of some of the components and maximizes the spa's energy efficiency.
+								p Also, make sure your cover is at peak performance level. Check for signs of wear and tear-make sure the seal is still tight and intact so heat doesn't escape. If you see signs of sagging, fading or cracking, it's time for a replacement. Be sure to remove snow from the spa cover before large amounts accumulate. Condensation might occur around the cover locks which could create ice build up to remove, splash with warm water; don't try to pry the ice off.
+								p Sanitizer is extremely important for killing algae, bacteria and other unwanted impurities in your spa water. While it is important to maintain the sanitizer levels, you do not want too much, because it can irritate your skin, lungs and eyes.
+
+		include _includes/footer

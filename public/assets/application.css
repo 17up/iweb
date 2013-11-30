@@ -28,24 +28,21 @@ body{min-width:940px}
 #banner_slider{max-height:550px !important}
 .banner_green{font-size:30px;color:#fff;line-height:30px;z-index:3;background-color:#428cce;padding:10px 20px 10px 20px}
 .banner_white{font-size:30px;line-height:30px;color:#393939;z-index:3;background-color:#f5f5f5;padding:5px 20px 5px 20px}
-.zen_container{width:900px;margin:0 auto}
+.zen_container{width:900px;margin:0 auto;}
+.zen_container .title{padding:30px 0;text-align:center;font-size:2em;color:#428cce}
+.linker{text-align:center;font-size:1.5em;padding:40px 0;color:#428cce;}
+.linker a{color:#428cce;display:block;}
+.linker a:hover{text-decoration:underline}
 #home{margin-bottom:20px}
 #products{padding-top:60px;margin-bottom:20px;}
-#products .dealer{text-align:center;font-size:2em;padding:40px 0;}
-#products .dealer a{color:#4eb1e6;}
-#products .dealer a:hover{color:#428cce}
 #products .title{text-align:center;}
 #products .title h1{font-size:2.5em;background:#428cce;color:#fff;margin:20px 0 40px 0;font-weight:normal;display:inline-block;padding:10px;border:4px solid #fff;-moz-box-shadow:0 0 0 3px #428cce;-webkit-box-shadow:0 0 0 3px #428cce;box-shadow:0 0 0 3px #428cce}
-#products .zen_container .item{float:left;width:300px;height:262px;margin-bottom:20px;}
+#products .zen_container .item{float:left;width:280px;height:262px;margin:10px;}
 #products .zen_container .item .image{display:block;overflow:hidden;position:relative;color:#fff;text-align:center;}
 #products .zen_container .item .image img{width:200px}
-#products .zen_container .item .image h3{font-size:2em;color:#428cce;padding:10px 0}
+#products .zen_container .item .image h3{margin-top:10px;font-size:1em;color:#fff;padding:10px 0;background:#428cce;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px}
 #features{margin-top:80px;background:#f6f6f6;}
 #features .zen_container{width:940px;margin:0 auto;}
-#features .zen_container .more{text-align:center;padding:30px;}
-#features .zen_container .more a{color:#428cce;}
-#features .zen_container .more a:hover{color:#4eb1e6}
-#features .zen_container .title{padding:30px 0;text-align:center;font-size:2em;color:#428cce}
 #features .zen_container .last{margin-right:0 !important}
 #features .zen_container .item{text-align:center;float:left;margin-right:4%;margin-bottom:20px;width:30.66%;}
 #features .zen_container .item .image{padding:25px 45px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;background:#428cce;width:120px;margin:0 auto;position:relative}
@@ -61,7 +58,6 @@ body{min-width:940px}
 #quotes .flexslider ul.slides li .author{text-align:right;color:#e0dff7;margin-left:100px}
 #specials{margin-top:80px;}
 #specials .zen_container{width:940px;margin:0 auto;}
-#specials .zen_container .title{padding:30px 0;text-align:center;font-size:2em;color:#428cce}
 #specials .zen_container .threecolumn{width:33.1%;float:left;position:relative;-moz-box-shadow:0 0 15px 1px rgba(0,0,0,0.4);-webkit-box-shadow:0 0 15px 1px rgba(0,0,0,0.4);box-shadow:0 0 15px 1px rgba(0,0,0,0.4);}
 #specials .zen_container .threecolumn li{padding:20px;text-align:center;line-height:40px}
 #specials .zen_container .threecolumn li.title{background:#4eb1e6;color:#fff;font-weight:bold;font-size:1.5em}
@@ -76,7 +72,6 @@ body{min-width:940px}
 #specials .zen_container .threecolumn.highlight{z-index:5}
 #contact{margin-top:80px;background:url("./images/foot.jpg") center no-repeat;height:440px;margin-bottom:80px;}
 #contact .zen_container{width:940px;margin:0 auto;}
-#contact .zen_container .title{padding:30px 0;text-align:center;font-size:2em;color:#428cce}
 #contact .zen_container input:focus,#contact .zen_container textarea:focus{outline:none}
 #contact .zen_container #contact-form:before,#contact .zen_container #contact-form:after{content:"";display:table}
 #contact .zen_container #contact-form:after{clear:both}
@@ -88,7 +83,9 @@ body{min-width:940px}
 .page_title{background:#428cce;color:#fff;}
 .page_title .title{font-size:2em;padding:20px 0;width:940px;margin:0 auto;position:relative}
 h2 i,h4 i{margin-right:10px}
-.wrapper{margin-bottom:40px}
+.wrapper{margin-bottom:40px;}
+.wrapper .bg_image{margin:20px 0;width:940px;overflow:hidden;text-align:center;}
+.wrapper .bg_image img{height:380px}
 #dealer .inner_container{padding-top:40px;}
 #dealer .inner_container .country_selector{width:37%;height:100%;}
 #dealer .inner_container .country_selector .desc{padding:5px;background:#428cce;color:#fff}
@@ -115,22 +112,22 @@ h2 i,h4 i{margin-right:10px}
 #quote .form .product .input-group .item input{margin-right:5px}
 #quote .desc{margin:10px 0;padding:10px 0;font-size:1.2em;}
 #quote .desc p{line-height:2em;margin:20px 0;border-left:3px solid #428cce;padding-left:10px}
-#feature .zen_container{width:940px;}
-#feature .zen_container:before,#feature .zen_container:after{content:"";display:table}
-#feature .zen_container:after{clear:both}
-#feature .col-md-3{float:left;width:28%;position:relative;min-height:1px;padding:0 15px}
-#feature .col-md-9{float:left;width:65%;position:relative;min-height:1px;padding:0 15px}
-#feature .image{margin:20px 0;width:940px;overflow:hidden;}
-#feature .image img{height:380px}
-#feature .section{margin:30px 0;}
-#feature .section h2{color:#fff;padding:10px;background:#428cce}
-#feature .section .content h3{padding-left:10px;margin:10px 0;border-left:3px solid #428cce;color:#428cce}
-#feature .section .content p{text-indent:20px;line-height:1.5em;margin:10px 0}
+.two_stick .zen_container{width:940px;}
+.two_stick .zen_container:before,.two_stick .zen_container:after{content:"";display:table}
+.two_stick .zen_container:after{clear:both}
+.two_stick .col-md-3{float:left;width:28%;position:relative;min-height:1px;padding:0 15px}
+.two_stick .col-md-9{float:left;width:65%;position:relative;min-height:1px;padding:0 15px}
+.two_stick .section{margin:30px 0;}
+.two_stick .section h2{color:#fff;padding:10px;background:#428cce}
+.two_stick .section a{color:#428cce;text-decoration:underline}
+.two_stick .section .content h3{padding-left:10px;margin:10px 0;border-left:3px solid #428cce;color:#428cce}
+.two_stick .section .content p{text-indent:20px;line-height:1.5em;margin:10px 0}
+.two_stick .section .content p.note{font-size:.8em;font-style:italic}
 #product .zen_container{width:940px}
 #product .p_content:before,#product .p_content:after{content:"";display:table}
 #product .p_content:after{clear:both}
-#product .p_content .detail{width:400px;height:700px;background:#ccc}
-#product .p_content .images{height:700px;width:400px;background:#ddd}
+#product .p_content .detail{width:400px;height:700px;margin-top:20px}
+#product .p_content .images{margin-top:20px;height:700px;width:400px}
 #product .catelog{display:block;padding:20px 0;background:#fff;z-index:99;width:100%;}
 #product .catelog .middle{width:940px;margin:0 auto}
 #product .catelog.sticky{-moz-box-shadow:0 1px 3px rgba(0,0,0,0.12);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.12);box-shadow:0 1px 3px rgba(0,0,0,0.12)}

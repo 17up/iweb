@@ -1,14 +1,16 @@
 article.home
 	#products
-		.title
-			h1 Our Products
 		.zen_container.clearfix
+			h2.title
+				span.fa.fa-gift
+				p.pacifico Our Products
 			each item in body.products
 				.item
 					a.image(href = "/products##{item.cate}")
 						img(src=item.image title=item.title)
-						h3.dancing= item.title
-		.dealer
+						h3= item.title
+		.linker
+			span.fa.fa-search
 			a(href = "/dealer")
 				| Need a Dealer?
 	#features
@@ -25,9 +27,10 @@ article.home
 							img(src="./assets/images/#{item.image}")
 						h3= item.title
 						.desc= item.desc
-			.more
-				a(href="/features")
-					| ~ More Features ~
+		.linker
+			span.fa.fa-heart
+			a(href="/features")
+				| More Features
 	#quotes
 		.overlay
 		.zen_container
