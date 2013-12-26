@@ -35,7 +35,11 @@ body{min-width:940px}
 #about .content{width:900px;margin:0 auto;font-size:12px;}
 #about .content p{margin:10px 0}
 .title_s{font-size:30px;color:#999;line-height:30px;text-align:center;padding:20px}
-#choose_slider{margin-top:40px;background:url("./images/choose.png");width:100%;height:260px}
+#choose_slider{margin-top:40px;background:url("./images/choose.png");width:100%;height:260px;}
+#choose_slider .auto_slide{width:940px;margin:0 auto;padding-top:40px;}
+#choose_slider .auto_slide:before,#choose_slider .auto_slide:after{content:"";display:table}
+#choose_slider .auto_slide:after{clear:both}
+#choose_slider .auto_slide .item{float:left;width:20%;text-align:center}
 #jobs{width:900px;margin:0 auto;margin-top:40px;}
 #jobs .summary{border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding:10px 0;}
 #jobs .summary p{margin:10px}
